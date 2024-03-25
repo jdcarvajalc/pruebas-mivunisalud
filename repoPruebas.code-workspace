@@ -6,10 +6,6 @@
 		{
 			"name": "pu-sensorMiv",
 			"path": "pruebasUnitarias/pu-sensorMiv"
-		},
-		{
-			"name": "pu-microSdMiv",
-			"path": "pruebasUnitarias/pu-microSdMiv"
 		}
 	],
 	"settings": {}
