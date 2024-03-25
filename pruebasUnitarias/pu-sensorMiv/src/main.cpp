@@ -11,6 +11,7 @@
 
 #include <Arduino.h>
 #include <Wire.h>
+#include <SPI.h>
 #include "Adafruit_SHT31.h"
 
 // Objeto para interactuar con el sensor SHT31
