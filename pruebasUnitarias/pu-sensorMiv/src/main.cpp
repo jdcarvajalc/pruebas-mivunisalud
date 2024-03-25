@@ -24,7 +24,7 @@ Adafruit_SHT31 sht31 = Adafruit_SHT31();
 * entra en un bucle infinito.
 */
 void setup() {
-  Serial.begin(115200);
+  Serial.begin(115200); // velocidad para ESP32
 
   if (!sht31.begin(0x44)) {   
     Serial.println("Sensor no conectado");
