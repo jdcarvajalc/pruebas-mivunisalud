@@ -1,6 +1,6 @@
 /**
-* @file   pu_sensor.cpp
-* @brief  Prueba unitaria del sensor SHT31 con Arduino.
+* @file   main.cpp
+* @brief  Prueba unitaria del sensor SHT31 con ESP32.
 *
 * Este programa realiza la prueba unitaria del sensor SHT31, midiendo la temperatura
 * y la humedad y mostrando los resultados en el monitor serie. Se utiliza la biblioteca
