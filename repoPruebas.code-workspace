@@ -4,7 +4,8 @@
 			"path": "."
 		},
 		{
-			"path": "pruebasUnitarias/pu-wifiMiv"
+			"name": "pu-transmisionDatos",
+			"path": "pruebasUnitarias/pu-transmisionDatos"
 		}
 	],
 	"settings": {}
