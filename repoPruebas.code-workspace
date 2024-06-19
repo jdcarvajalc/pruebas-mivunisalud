@@ -4,8 +4,8 @@
 			"path": "."
 		},
 		{
-			"name": "pu-transmisionDatos",
-			"path": "pruebasUnitarias/pu-transmisionDatos"
+			"name": "pu-rtcMiv",
+			"path": "pruebasUnitarias/pu-rtcMiv"
 		}
 	],
 	"settings": {}
