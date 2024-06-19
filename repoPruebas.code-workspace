@@ -4,8 +4,7 @@
 			"path": "."
 		},
 		{
-			"name": "pu-sensorMiv",
-			"path": "pruebasUnitarias/pu-sensorMiv"
+			"path": "pruebasUnitarias/pu-microSdMiv"
 		}
 	],
 	"settings": {}
