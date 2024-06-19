@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "pu-sensorMiv",
+			"path": "pruebasUnitarias/pu-sensorMiv"
 		}
 	],
 	"settings": {}
