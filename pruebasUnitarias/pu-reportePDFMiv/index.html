@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generar un pdf con js</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+<body>
+
+    <h1>Generar un pdf con js</h1>
+    <button id="downloadBtn">Descargar reporte</button>
+
+    <script>
+        // Función para generar el PDF
+        document.getElementById("downloadBtn").addEventListener("click", function() {
+            // Importar jsPDF
+            const { jsPDF } = window.jspdf;
+
+            // Crear una nueva instancia de jsPDF
+            const doc = new jsPDF();
+
+            // Título del documento
+            doc.setFontSize(22);
+            doc.text("prueba_reporte", 10, 20);
+
+            // Contenido adicional
+            doc.setFontSize(16);
+            doc.text("HOLA MUNDO", 10, 40);
+
+            // Descargar el PDF
+            doc.save("reporte.pdf");
+        });
+    </script>
+
+</body>
+</html>

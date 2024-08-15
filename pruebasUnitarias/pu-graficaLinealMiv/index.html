@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gráfica Lineal con Plotly.js</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body>
+
+
+    <div id="grafica"></div>
+
+    <script>
+        // Datos para la gráfica
+        var x = [1, 2, 3, 4, 5];
+        var y = [1, 4, 9, 16, 25];
+
+        // Configuración de la gráfica
+        var data = [{
+            x: x,
+            y: y,
+            type: 'scatter'
+        }];
+
+        var layout = {
+            title: 'Prueba de presentación de datos con gráficas lineales',
+            xaxis: {
+                title: 'Marca temporal'
+            },
+            yaxis: {
+                title: 'Temperatura o humedad relativa'
+            }
+        };
+
+        // Crear la gráfica
+        Plotly.newPlot('grafica', data, layout);
+    </script>
+
+</body>
+</html>
